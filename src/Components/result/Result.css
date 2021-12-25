@@ -7,7 +7,13 @@
     margin-top: 2rem;
     font-size: 1rem !important;
     color: white;
+    margin-left: 1rem;
     text-shadow: 0 0 8px gray;
+}
+.reset{
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 2rem ;
 }
 .result>h2>span{
     color: black;
