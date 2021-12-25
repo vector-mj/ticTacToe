@@ -1,0 +1,14 @@
+.result{
+    display: flex;
+    line-height: .1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    font-size: 1rem !important;
+    color: white;
+    text-shadow: 0 0 8px gray;
+}
+.result>h2>span{
+    color: black;
+}

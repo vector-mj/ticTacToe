@@ -1,0 +1,27 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15.6rem;
+    height: 15.6rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: .5rem solid white;
+    border-radius: .3rem;
+    box-shadow: 0 0 10px 1px gray;
+    text-shadow: 0 0 4px gray;
+}
+
+.board>.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+    font-weight: 900;
+    border: .1rem solid rgb(255, 255, 255);
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
